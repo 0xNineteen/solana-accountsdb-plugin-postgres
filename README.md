@@ -130,6 +130,8 @@ To select all vote transactions:
 
 #### Install PostgreSQL Server
 
+#### Ubuntu
+
 Please follow [PostgreSQL Ubuntu Installation](https://www.postgresql.org/download/linux/ubuntu/)
 on instructions to install the PostgreSQL database server. For example, to
 install postgresql-14,
@@ -140,6 +142,14 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt-get -y install postgresql-14
 ```
+
+#### Mac
+
+```
+brew install postgresql
+brew services start postgresql
+```
+
 #### Control the Database Access
 
 Modify the pg_hba.conf as necessary to grant the plugin to access the database.

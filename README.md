@@ -1,3 +1,17 @@
+- `python update_config.py`
+- `cargo build`
+- // initialize postgresql server "solana" with instructions below
+- `bash exec_sql.sh clear.sql` // should run before each new local-validator
+- `solana-test-validator --geyser-plugin-config config.json`
+
+## debugging
+- look at test-ledger/validator.log
+- make sure solana-cli version == version in Cargo.toml (solana-geyser-plugin-interface = { version = "=1.11.1" })
+  - `solana --version`
+  - `sh -c "$(curl -sSfL https://release.solana.com/v1.11.1/install)"`
+
+---
+
 The `solana-geyser-plugin-postgres` crate implements a plugin storing
 account data to a PostgreSQL database to illustrate how a plugin can be
 developed to work with Solana validators using the [Plugin Framework](https://docs.solana.com/developing/plugins/geyser-plugins).

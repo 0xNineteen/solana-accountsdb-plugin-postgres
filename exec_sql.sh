@@ -1,0 +1,1 @@
+psql -U solana -d solana -f $1

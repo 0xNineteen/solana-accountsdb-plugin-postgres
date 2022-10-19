@@ -10,6 +10,10 @@
     "accounts_selector": {
         "owners": [
             "DUZwKJKAk2C9S88BYvQzck1M1i5hySQjxB4zW6tJ29Nw"
+        ],
+        "accounts": [
+            "8QZ7gRNLkBBTz4qG7gAmZyBByPA8vMw5ezSaP6RDRVLd",
+            "8BqipEWBssZVZsAfA9N5bh23ovPcn8yXSKqt9bthj2Rk"
         ]
     }
 }

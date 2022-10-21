@@ -3,6 +3,7 @@
 - // initialize postgresql server "solana" with instructions below
 - `bash exec_sql.sh clear.sql` // should run before each new local-validator
 - `solana-test-validator --geyser-plugin-config config.json`
+- `bash setup.sh`
 
 ## debugging
 - look at test-ledger/validator.log

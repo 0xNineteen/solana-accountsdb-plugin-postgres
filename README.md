@@ -1,3 +1,7 @@
+note: this repo is heavily tied in with https://github.com/drift-labs/drift-sim
+
+--- 
+
 - `python update_config.py`
 - `cargo build`
 - // initialize postgresql server "solana" with instructions below

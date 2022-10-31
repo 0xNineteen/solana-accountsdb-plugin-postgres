@@ -9,11 +9,11 @@
     "store_account_historical_data": true,
     "accounts_selector": {
         "owners": [
-            "FPVkWvcQgc4aCS8TrKo5c8GqTbKMauvzpADdqzRT2WbT"
+            "H4G1xzAoqSW8n1Edmeowqsgc895tSNCeDPafYjv4Md7i"
         ],
         "accounts": [
-            "4BZqXLJhJsWrJ6mg4oh13vMLWLPXGtPNZ6XC6a55Tn49",
-            "Hnb725z1yF8wGK1VuEKZXPCCbukJw1FhyyKsQ3Hs982o"
+            "AwaFuuJv3HPexoN8dBDgUUCGdWcqSNCpB1CWtwzScPa2",
+            "CfAznyVoFHX8ifk3pbYTopsGNfD7WrrCTJLZznK3ffNg"
         ]
     }
 }

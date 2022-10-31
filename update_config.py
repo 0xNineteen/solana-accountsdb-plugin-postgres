@@ -1,6 +1,6 @@
 import json 
 from solana.publickey import PublicKey
-with open(f'../driftpy/protocol-v2/programs/clearing_house/src/lib.rs', 'r') as f:
+with open(f'../driftpy/protocol-v2/programs/drift/src/lib.rs', 'r') as f:
     data = f.read()
 import re 
 re_result = re.search('\[cfg\(not\(feature = \"mainnet-beta\"\)\)\]\ndeclare_id!\(\"(.*)\"\)', data)
@@ -20,7 +20,7 @@ accounts = []
 n_spot_markets = 1
 for i in range(n_spot_markets):
     spot_vault_public_key = get_spot_market_vault_public_key(pk, i)
-    insurance_vault_public_key = get_insurance_fund_public_key(pk, i)
+    insurance_vault_public_key = get_insurance_fund_vault_public_key(pk, i)
 
     accounts.append(str(spot_vault_public_key))
     accounts.append(str(insurance_vault_public_key))
